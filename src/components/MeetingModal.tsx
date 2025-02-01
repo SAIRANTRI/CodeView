@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import useMeetingActions from "@/hooks/useMeetingActions";
 
 interface MeetingModalProps {
-  isOpen: boolean;5
+  isOpen: boolean;
   onClose: () => void;
   title: string;
   isJoinMeeting: boolean;
